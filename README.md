@@ -68,6 +68,6 @@ The program prints
     elapsedS/elapsedB = 325,01
 ```
 
-which shows that operations on `StringBilder` objects can be orders of magnitude faster than analogous operations on `String`s.
+which shows that operations on `StringBuilder` objects can be orders of magnitude faster than analogous operations on `String`s.
 
 Next [Section 10 Introduction to inheritance 50.51.52.DJV-Inherit](https://github.com/Java-PJATK/50.51.52.DJV-Inherit)
