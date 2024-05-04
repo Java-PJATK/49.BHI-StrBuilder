@@ -9,7 +9,7 @@ The fact that `String`s are immutable has many advantages but the downside is th
 
 For example, when we want to append something to a string using `s=s+"something"`, we actually do _not_ append anything to an existing string; we just create a completely new object and the reference to this new object assign back to `s` erasing its previous contents (but the string that was referenced to by s before still exists on the heap in memory).
 
-Problems related to string being immutable are addressed by the class `StringBilder`.
+Problems related to string being immutable are addressed by the class `StringBuilder`.
 
 Object of this type are similar to `String` objects but _are_ modifiable. 
 
