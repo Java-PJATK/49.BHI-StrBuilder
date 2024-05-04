@@ -17,7 +17,7 @@ Internally, they allocate an array of characters and operate on it; when it beco
 
 As at each reallocation much bigger array is allocated, its size grows rapidly and hence not many such reallocations will ever be required. 
 
-Probably the most useful methods of `StringBilder` are `append`, which appends to a string another string, `insert`, which inserts a string on an arbitrary position into an existing string; as the mater of fact almost anything can be inserted, in particular numbers and also objects (in that case, the result of invocation of `toString` will be inserted). 
+Probably the most useful methods of `StringBuilder` are `append`, which appends to a string another string, `insert`, which inserts a string on an arbitrary position into an existing string; as the mater of fact almost anything can be inserted, in particular numbers and also objects (in that case, the result of invocation of `toString` will be inserted). 
 
 Also, the method `delete` is often useful: it can remove a fragment of the string. Invoking `toString` on a `StringBuilder` object gives us the final, immutable String object. Many of the methods mentioned above return this object, so their invocations may be chained, as in the example below:
 
